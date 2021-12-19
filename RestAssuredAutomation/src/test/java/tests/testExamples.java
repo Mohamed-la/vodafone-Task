@@ -24,7 +24,7 @@ public class testExamples
 @Test
 public void testGetAllPosts() 
 {
-	
+	// test all posts
 	baseURI = "https://jsonplaceholder.typicode.com/posts";
 	 given().
 	     get(baseURI).
