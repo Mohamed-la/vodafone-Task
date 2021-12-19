@@ -1,0 +1,39 @@
+A- Login 
+1-Verify if a user will be able to login with a valid username and valid password.	positive
+2-Verify the ‘Forgot Password’ functionality	positive
+3-Verify the messages for invalid login.	positive
+4-Verify the ‘Remember Me’ functionality	positive
+5-Verify if the data in password field is either visible as asterisk or bullet signs.	positive
+6-Verify if a user is able to login with a new password only after he/she has changed the password.	positive
+7-Verify if the login page allows to log in simultaneously with different credentials in a different browse	positive
+8-Verify the time taken to log in with a valid username and password.	positive
+9-Verify if a user cannot login with a valid username and an invalid password	negative
+10-Verify if a user should be able to login with the same credentials in different browsers at the same time.	positive
+11-Verify if a user cannot enter the characters more than the specified range in each field (Username and Password).	posititve
+12-Enter the valid email address & click next. Verify if the user gets an option to enter the password.
+13-"Don’t enter an email address or phone number & just click the Next button. Verify if the user will get the correct
+ message or if the blank field will get highlighted."
+14-Enter the invalid email address & click the Next button. Verify if the user will get the correct message.
+15-Enter an invalid phone number & click the Next button. Verify if the user will get the correct message.
+16-Verify if a user can log in with a valid email address and password.
+17-Verify if a user can log in with a valid phone number and password.
+18-Verify if a user cannot log in with a valid phone number and an invalid password.
+19-Verify if a user cannot log in with a valid email address and a wrong password.
+20-Verify the ‘Forgot email’ functionality.
+21-Verify the ‘Forgot password’ functionality.
+
+B-Registeration
+1- Verify the messages for each mandatory field.
+2- Verify if the user cannot proceed without filling all the mandatory fields.
+3- Verify the age of the user when the DOB is selected.
+4- Verify if the numbers and special characters are not allowed in the First and Last name.
+5- Verify if a user can sign-up successfully with all the mandatory details.
+6- Verify if a user can log in with the valid details.
+7- Verify if the Password and Confirm Password fields are accepting similar strings only.
+8- Verify if the Password field will prompt you for the weak passwords.
+9- Verify if duplicate email address will not get assigned.
+10- Verify that hints are provided for each field on the form, for the ease of use.
+
+
+c- Cart checkout
+
