@@ -29,7 +29,7 @@ public class SignUp
 		driver.manage().window().maximize();
 		
 		WebElement userNameInput = driver.findElement(By.id("email_create"));			
-		userNameInput.sendKeys("eslam.sayed7777@gmail.com");
+		userNameInput.sendKeys("eslam.sayed@gmail.com");
 		userNameInput.sendKeys(Keys.ENTER);
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);  // waiting until page reload
 

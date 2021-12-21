@@ -39,11 +39,11 @@ public class loginWithInvalidCredentials {
 		
 		if (failMessageOne.getText().equals("Welcome to your account. Here you can manage all of your personal information and orders."))
 		{
-			System.out.println("Test Passed");
+			System.out.println("login with invalid credentials  Passed !");
 		}
 		else
 		{
-			System.out.println("Test Failed (inavalid mail)");
+			System.out.println("login with invalid credentials Failed");
 		}
 
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);  // waiting until page reload

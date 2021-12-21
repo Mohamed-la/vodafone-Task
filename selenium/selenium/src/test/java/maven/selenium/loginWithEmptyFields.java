@@ -37,11 +37,11 @@ public class loginWithEmptyFields {
 	    
 		if (failMessageTwo.getText().equals("Welcome to your account. Here you can manage all of your personal information and orders."))
 		{
-			System.out.println("Test Passed");
+			System.out.println("login with empty fields Passed !");
 		}
 		else
 		{
-			System.out.println("Test Failed (empty fields)");
+			System.out.println("login with empty fields Failed ");
 		}
 	
 		
